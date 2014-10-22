@@ -64,7 +64,7 @@ def load_data_wrapper():
     Obviously, this means we're using slightly different formats for
     the training data and the validation / test data.  These formats
     turn out to be the most convenient for use in our neural network
-    code."""
+    python_code."""
     tr_d, va_d, te_d = load_data()
     training_inputs = [np.reshape(x, (784, 1)) for x in tr_d[0]]
     training_results = [vectorized_result(y) for y in tr_d[1]]

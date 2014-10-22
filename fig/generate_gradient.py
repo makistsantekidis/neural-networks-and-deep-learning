@@ -14,7 +14,7 @@ import math
 import random
 import shutil
 import sys
-sys.path.append("../code/")
+sys.path.append("../python_code/")
 
 # My library
 import mnist_loader

@@ -8,7 +8,7 @@ fairly generic valley function."""
 #### Libraries
 # Third party libraries
 from matplotlib.ticker import LinearLocator
-# Note that axes3d is not explicitly used in the code, but is needed
+# Note that axes3d is not explicitly used in the python_code, but is needed
 # to register the 3d plot type correctly
 from mpl_toolkits.mplot3d import axes3d 
 import matplotlib.pyplot as plt
